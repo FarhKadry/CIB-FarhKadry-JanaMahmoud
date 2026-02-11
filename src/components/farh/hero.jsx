@@ -1,10 +1,11 @@
 import React from 'react';
 import './hero.css';
 
-const Hero = () => {
+const Herobtn = () => {
     return ( 
         <button className="heroBtn">Discover more</button>
+
      );
 }
  
-export default Hero;
+export default Herobtn;

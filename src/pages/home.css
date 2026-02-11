@@ -3,7 +3,10 @@
     box-sizing: border-box;
     font-family: Inter;
 }
-
+body{
+    background: #FAFAFA;
+    height: 3000px;
+}
 /* textstyles */
 
 h1 {
@@ -32,6 +35,18 @@ p {
 
 /* textstyles */
 
+/*GENERAL STYLES */
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+a:hover{
+    opacity: 0.8;
+}
 /* HEROCONTENT */
 .secCont{
     width: 100%;
@@ -43,12 +58,21 @@ p {
 }
 .heroCont{
     width: 100%;
-    height: 628px;
     background: url('../assets/hero.jpg') no-repeat center center;
     background-size: cover;
+    padding: 250px 0 198px 72px;
+    box-sizing: border-box;
 }
 .heroCont h1{
     color: #FFF;
-font-weight: 700;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.heroCont p{
+    color: #FFF;
+    font-weight: 300;
+    font-size: 24px;
+    max-width: 432px;
+    margin-bottom: 36px;
 }
 /* HEROCONTENT */
