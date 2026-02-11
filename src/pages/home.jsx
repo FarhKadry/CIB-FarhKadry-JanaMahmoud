@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/farh/jana/NavBar';
+import NavBar from '../components/jana/NavBar';
 import './home.css';
 
 const Home = () => {
