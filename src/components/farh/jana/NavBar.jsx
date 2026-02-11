@@ -7,7 +7,9 @@ const NavBar = () => {
         <>
         <header>
             <img src={logo} alt="CIB logo" />
-            <div className="navbar"></div>
+            <div className="navbar">
+                
+            </div>
         </header>
         </>
      );
