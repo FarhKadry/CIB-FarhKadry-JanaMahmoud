@@ -7,7 +7,18 @@ const Home = () => {
     return ( 
         <>
         <NavBar />
-        <Hero />
+        {/* MAINCONTSTART */}
+        <main>
+            <section>
+        <div className="secCont">
+            <div className="heroCont">
+                <h1>CIB</h1>
+                <Hero />
+
+            </div>
+        </div>
+            </section>
+        </main>
         </>
      );
 }
