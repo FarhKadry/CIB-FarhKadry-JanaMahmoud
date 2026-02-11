@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../components/farh/jana/NavBar';
-import './Home.css';
+import './home.css';
 
 const Home = () => {
     return ( 
