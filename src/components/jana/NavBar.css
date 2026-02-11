@@ -2,6 +2,14 @@ header {
     width: 100%;
     background-color: #032D62;
     padding: 17px 158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header p {
+    color: white;
+    font-weight: 600;
 }
 
 .navbar {
