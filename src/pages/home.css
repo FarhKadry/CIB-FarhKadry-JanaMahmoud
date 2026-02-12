@@ -47,13 +47,13 @@ a{
 a:hover{
     opacity: 0.8;
 }
+
 /* HEROCONTENT */
 .secCont{
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1400px;
     margin: 0 auto;
 }
 .heroCont{
@@ -76,3 +76,9 @@ a:hover{
     margin-bottom: 36px;
 }
 /* HEROCONTENT */
+
+/* section1 */
+
+.secStyle {
+    padding: 75px 15px;
+}

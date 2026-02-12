@@ -3,6 +3,7 @@ import NavBar from '../components/jana/NavBar';
 import './home.css';
 import Herobtn from '../components/farh/hero';
 import Nav2 from './../components/farh/nav2';
+import SmallTitle from '../components/jana/SmallTitle';
 
 const Home = () => {
     return ( 
@@ -19,8 +20,10 @@ const Home = () => {
             </div>
         </div>
             </section>
-                <Nav2 />
-
+            <Nav2 />
+            <section className="secCont secStyle">
+                <SmallTitle />
+            </section>
         </main>
         </>
      );
