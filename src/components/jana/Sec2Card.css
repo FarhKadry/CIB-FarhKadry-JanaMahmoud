@@ -1,0 +1,41 @@
+.sec2card {
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0, 0, 0, 0.05);
+}
+
+.sec2cardInfo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: start;
+}
+
+.sec2cardInfo h3 {
+    color: #1858A8;
+    font-weight: 700;
+}
+
+.sec2cardInfo p {
+    color: #333;
+    font-weight: 400;
+}
+
+.sec2cardCTA {
+    width: 100%;
+    background: #FAFAFA;
+    padding: 10px 20px;
+}
+
+.sec2cardCTA p {
+    text-decoration-line: underline;
+    text-decoration-skip-ink: auto;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+    font-weight: 400;
+}

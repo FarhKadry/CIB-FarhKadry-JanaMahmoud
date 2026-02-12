@@ -6,6 +6,7 @@ import Nav2 from './../components/farh/nav2';
 import SmallTitle from '../components/jana/SmallTitle';
 import Heading from '../components/jana/Heading';
 import Sec1Card from '../components/jana/Sec1Card';
+import Sec2Card from '../components/jana/Sec2Card';
 
 const Home = () => {
     return ( 
@@ -38,6 +39,11 @@ const Home = () => {
                 <div className="titleCont">
                     <Heading />
                     <h2>Learn more about banking and your finances</h2>
+                </div>
+                <div className="secCards">
+                    <Sec2Card />
+                    <Sec2Card />
+                    <Sec2Card />
                 </div>
             </section>
         </main>
