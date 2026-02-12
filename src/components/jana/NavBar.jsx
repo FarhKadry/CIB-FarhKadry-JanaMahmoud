@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 import logo from '../../assets/logo.svg';
+import NavItem from './navitem';
 
 const NavBar = () => {
     return ( 
@@ -9,41 +10,14 @@ const NavBar = () => {
             <img src={logo} alt="CIB logo" />
             <nav>
                 <ul>
-                    <li>
-                        <a href="#">
-                            <p>About Us</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>Investor Relations</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>Responsible Banking</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>Newsroom</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>Learning Center</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>Careers</p>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <p>Others</p>
-                        </a>
-                    </li>
+                    <NavItem />
+                    <NavItem />
+                    <NavItem />
+                    <NavItem />
+                    <NavItem />
+                    <NavItem />
+                    <NavItem />
+                    
                 </ul>
             </nav>
         </header>
