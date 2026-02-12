@@ -57,6 +57,17 @@ const Home = () => {
                 </div>
                 <Herobtn />
             </section>
+            <section className='secCont sec4'>
+                <div className="sec4Cont">
+                    <div className="sec4Box">
+                        <div className="sec4BoxCont">
+                            <h3>CIB on an international scale</h3>
+                            <p>Learn more about CIB's presence outside of Egypt</p>
+                        </div>
+                        <Herobtn />
+                    </div>
+                </div>
+            </section>
         </main>
         </>
      );
