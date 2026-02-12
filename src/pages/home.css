@@ -81,4 +81,12 @@ a:hover{
 
 .secStyle {
     padding: 75px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.titleCont {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
 }
