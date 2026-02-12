@@ -1,0 +1,8 @@
+.sec3card {
+    border-top: 1px solid #B8BABC;
+    padding: 30px 20px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    max-width: 900px;
+}

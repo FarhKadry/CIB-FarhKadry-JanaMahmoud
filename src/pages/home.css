@@ -107,4 +107,33 @@ a:hover{
     justify-content: center;
 }
 
+.secCardsCol {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+
 /* section1 */
+
+/* section2 */
+
+.sec2cardInfo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: start;
+}
+
+.sec2cardInfo h3 {
+    color: #1858A8;
+    font-weight: 700;
+}
+
+.sec2cardInfo p {
+    color: #333;
+    font-weight: 400;
+}
+
+/* section2 */

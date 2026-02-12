@@ -7,6 +7,7 @@ import SmallTitle from '../components/jana/SmallTitle';
 import Heading from '../components/jana/Heading';
 import Sec1Card from '../components/jana/Sec1Card';
 import Sec2Card from '../components/jana/Sec2Card';
+import Sec3Card from '../components/jana/Sec3Card';
 
 const Home = () => {
     return ( 
@@ -46,6 +47,14 @@ const Home = () => {
                     <Sec2Card />
                 </div>
                 <Herobtn />
+            </section>
+            <section className="secCont secStyle">
+                <Heading />
+                <div className="secCardsCol">
+                    <Sec3Card />
+                    <Sec3Card />
+                    <Sec3Card />
+                </div>
             </section>
         </main>
         </>
