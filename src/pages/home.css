@@ -5,7 +5,6 @@
 }
 body{
     background: #FAFAFA;
-    height: 3000px;
 }
 /* textstyles */
 
@@ -83,10 +82,17 @@ a:hover{
     padding: 75px 15px;
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .titleCont {
     display: flex;
     flex-direction: column;
     gap: 14px;
+}
+
+.secCards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
 }

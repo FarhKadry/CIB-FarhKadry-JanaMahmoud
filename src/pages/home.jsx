@@ -5,6 +5,7 @@ import Herobtn from '../components/farh/hero';
 import Nav2 from './../components/farh/nav2';
 import SmallTitle from '../components/jana/SmallTitle';
 import Heading from '../components/jana/Heading';
+import Sec1Card from '../components/jana/Sec1Card';
 
 const Home = () => {
     return ( 
@@ -26,6 +27,11 @@ const Home = () => {
                 <div className="titleCont">
                     <SmallTitle />
                     <Heading />
+                </div>
+                <div className="secCards">
+                    <Sec1Card />
+                    <Sec1Card />
+                    <Sec1Card />
                 </div>
             </section>
         </main>
