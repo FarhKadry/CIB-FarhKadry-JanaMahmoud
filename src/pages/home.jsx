@@ -8,6 +8,8 @@ import Heading from '../components/jana/Heading';
 import Sec1Card from '../components/jana/Sec1Card';
 import Sec2Card from '../components/jana/Sec2Card';
 import Sec3Card from '../components/jana/Sec3Card';
+import Footer from '../components/jana/Footer';
+import Copyrights from '../components/jana/Copyrights';
 
 const Home = () => {
     return ( 
@@ -68,13 +70,8 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
-            <footer>
-
-            </footer>
-            <section className='copyrights'>
-                <h5>Copyright © 2025 Commercial International Bank</h5>
-            </section>
+            <Footer />
+            <Copyrights />
         </main>
         </>
      );

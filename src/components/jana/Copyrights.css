@@ -1,0 +1,12 @@
+.copyrights {
+    width: 100%;
+    background: #004A88;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 160px;
+}
+
+.copyrights h5 {
+    color: #B8BABC;
+    font-weight: 400;
+}
