@@ -34,6 +34,12 @@ const Home = () => {
                     <Sec1Card />
                 </div>
             </section>
+            <section className='secCont secStyle secWhiteBg'>
+                <div className="titleCont">
+                    <Heading />
+                    <h2>Learn more about banking and your finances</h2>
+                </div>
+            </section>
         </main>
         </>
      );
