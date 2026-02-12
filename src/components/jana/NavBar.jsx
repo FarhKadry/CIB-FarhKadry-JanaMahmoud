@@ -7,15 +7,45 @@ const NavBar = () => {
         <>
         <header>
             <img src={logo} alt="CIB logo" />
-            <div className="navbar">
-                <p>About Us</p>
-                <p>Investor Relations</p>
-                <p>Responsible Banking</p>
-                <p>Newsroom</p>
-                <p>Learning Center</p>
-                <p>Careers</p>
-                <p>Others</p>
-            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <p>About Us</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>Investor Relations</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>Responsible Banking</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>Newsroom</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>Learning Center</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>Careers</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <p>Others</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
         </header>
         </>
      );

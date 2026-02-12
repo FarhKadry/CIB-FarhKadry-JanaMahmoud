@@ -15,7 +15,7 @@ header p {
     font-weight: 600;
 }
 
-.navbar {
+header ul {
     display: flex;
     gap: 34px;
 }
