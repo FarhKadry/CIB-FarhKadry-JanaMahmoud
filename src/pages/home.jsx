@@ -55,6 +55,7 @@ const Home = () => {
                     <Sec3Card />
                     <Sec3Card />
                 </div>
+                <Herobtn />
             </section>
         </main>
         </>
