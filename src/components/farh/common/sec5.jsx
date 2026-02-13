@@ -1,6 +1,6 @@
 import React from 'react';
 import './sec5.css';
-import s5Logo from '../../assets/logoset02.png';
+import s5Logo from '../../../assets/logoset02.png';
 
 const Sec5card = () => {
     return ( 

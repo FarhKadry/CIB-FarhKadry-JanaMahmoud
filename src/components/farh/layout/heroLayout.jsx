@@ -1,6 +1,6 @@
 import React from 'react';
 import './heroLayout.css';
-import Herobtn from './../hero';
+import Herobtn from '../common/hero';
 
 const Herolayout = () => {
     return ( 

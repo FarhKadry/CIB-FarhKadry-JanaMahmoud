@@ -3,8 +3,8 @@ import NavBar from '../components/jana/layout/NavBar';
 import './home.css';
 // FARH1
 import Herolayout from '../components/farh/layout/heroLayout';
-import Herobtn from '../components/farh/hero';
-import Nav2 from './../components/farh/nav2';
+import Herobtn from '../components/farh/common/hero';
+import Nav2 from '../components/farh/layout/nav2';
 // JANA2
 import SmallTitle from '../components/jana/common/SmallTitle';
 import Heading from '../components/jana/common/Heading';
@@ -14,9 +14,9 @@ import Sec3Card from '../components/jana/common/Sec3Card';
 import Footer from '../components/jana/layout/Footer';
 import Copyrights from '../components/jana/layout/Copyrights';
 // FARH2
-import Sec5card from '../components/farh/sec5';
-import Sec6card from '../components/farh/sec6';
-import Sec7card from '../components/farh/sec7';
+import Sec5card from '../components/farh/common/sec5';
+import Sec6card from '../components/farh/common/sec6';
+import Sec7card from '../components/farh/common/sec7';
 
 const Home = () => {
     return ( 
