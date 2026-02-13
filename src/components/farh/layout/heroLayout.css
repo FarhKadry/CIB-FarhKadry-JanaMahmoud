@@ -1,0 +1,19 @@
+.heroCont{
+    width: 100%;
+    background: url('../../../assets/hero.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 250px 0 198px 72px;
+    box-sizing: border-box;
+}
+.heroCont h1{
+    color: #FFF;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.heroCont p{
+    color: #FFF;
+    font-weight: 300;
+    font-size: 24px;
+    max-width: 432px;
+    margin-bottom: 36px;
+}

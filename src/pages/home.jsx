@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../components/jana/layout/NavBar';
 import './home.css';
 // FARH1
+import Herolayout from '../components/farh/layout/heroLayout';
 import Herobtn from '../components/farh/hero';
 import Nav2 from './../components/farh/nav2';
 // JANA2
@@ -25,11 +26,7 @@ const Home = () => {
         <main>
             <section>
         <div className="secCont">
-            <div className="heroCont">
-                <h1>CIB</h1>
-                <p>Delivering value to our clients, our community and our shareholders</p>
-                <Herobtn />
-            </div>
+            <Herolayout />
         </div>
             </section>
             <Nav2 />
