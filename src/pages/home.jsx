@@ -15,6 +15,7 @@ import Copyrights from '../components/jana/layout/Copyrights';
 // FARH2
 import Sec5card from '../components/farh/sec5';
 import Sec6card from '../components/farh/sec6';
+import Sec7card from '../components/farh/sec7';
 
 const Home = () => {
     return ( 
@@ -109,10 +110,10 @@ const Home = () => {
                     <Heading />
                 </div>
                 <div className="secCards secCards2">
-                    <Sec5card />
-                    <Sec5card />
-                    <Sec5card />
-                </div>
+                    <Sec7card />
+                    <Sec7card />
+                    <Sec7card />
+                    </div>
                 <Herobtn />
             </section>
             {/* FOOTER */}
