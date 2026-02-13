@@ -1,4 +1,5 @@
 import React from 'react';
+import sec7Img from '../../assets/iconserlast01.svg';
 import './sec7.css';
 
 const Sec7card = () => {

@@ -1,0 +1,32 @@
+.sec7Card{
+    display: flex;
+
+    gap: 30px;
+    width: 369px;
+height: 203px;
+padding: 30px 20px;
+box-sizing: border-box;
+    border-radius: 6px;
+border-top: 1px solid rgba(231, 231, 231, 0.60);
+background: #FFF;
+box-shadow: 0 1px 1px 2px rgba(0, 0, 0, 0.10);
+}
+.sec7Card img{
+    height: 54px;
+    width: auto;
+}
+.sec7Card h3{
+    color: #1858A8;
+}
+.sec7Card p{
+    color: #333;
+}
+.sec7Card div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sec7Card:hover{
+    box-shadow: 0 1px 11px 0 rgba(0, 0, 0, .35);
+
+}
