@@ -7,36 +7,11 @@ const Nav2 = () => {
         <div className="nav2Cont">
             <nav>
                 <ul>
-                    {/* 1 */}
-                    <li>
-                        <a href="#home">
-                            <p>Apply Online</p>
-                        </a>
-                    </li>
-                    {/* 2 */}
-                    <li>
-                        <a href="#">
-                            <p>Blog Articles</p>
-                        </a>
-                    </li>
-                    {/* 3 */}
-                    <li>
-                        <a href="#">
-                            <p>CIB International</p>
-                        </a>
-                    </li>
-                    {/* 4 */}
-                    <li>
-                        <a href="#">
-                            <p>Sustainable Finance</p>
-                        </a>
-                    </li>
-                    {/* 5 */}
-                     <li>
-                        <a href="#">
-                            <p>Sustainable Finance</p>
-                        </a>
-                    </li>
+                    <Nav2item />
+                    <Nav2item />
+                    <Nav2item />
+                    <Nav2item />
+                    <Nav2item />
                 </ul>
             </nav>
         </div>
