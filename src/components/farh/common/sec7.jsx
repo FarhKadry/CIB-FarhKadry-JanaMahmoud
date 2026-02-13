@@ -17,5 +17,5 @@ const Sec7card = () => {
         </div>
      );
 }
- 
+
 export default Sec7card;

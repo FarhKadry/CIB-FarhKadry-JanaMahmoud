@@ -1,5 +1,6 @@
 import React from 'react';
 import './nav2.css';
+import Nav2item from '../common/nav2item';
 
 const Nav2 = () => {
     return ( 
@@ -8,7 +9,7 @@ const Nav2 = () => {
                 <ul>
                     {/* 1 */}
                     <li>
-                        <a href="#">
+                        <a href="#home">
                             <p>Apply Online</p>
                         </a>
                     </li>
