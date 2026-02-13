@@ -3,7 +3,11 @@ import './FooterItem.css';
 
 const FooterItem = () => {
     return ( 
-        <h5 className='footeritem'>FAQs</h5>
+        <>
+        <a href="#home">
+            <h5 className='footeritem'>FAQs</h5>
+        </a>
+        </>
      );
 }
  
