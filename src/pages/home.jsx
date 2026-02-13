@@ -90,7 +90,7 @@ const Home = () => {
 
             </section>
             {/* SECTION 6 */}
-             <section className="secCont secStyle">
+             <section className="secCont secStyle secWhiteBg">
                 <div className="titleCont">
                     <SmallTitle />
                     <Heading />
@@ -101,9 +101,20 @@ const Home = () => {
                     <Sec6card />
                 </div>
                 <Herobtn />
-
             </section>
             {/* SECTION 7 */}
+            <section className="secCont secStyle">
+                <div className="titleCont">
+                    <SmallTitle />
+                    <Heading />
+                </div>
+                <div className="secCards secCards2">
+                    <Sec5card />
+                    <Sec5card />
+                    <Sec5card />
+                </div>
+                <Herobtn />
+            </section>
             {/* FOOTER */}
             <Footer />
             <Copyrights />
