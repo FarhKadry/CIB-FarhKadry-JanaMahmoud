@@ -1,9 +1,11 @@
 import React from 'react';
+import '../../jana/common/navitem.css';
+
 const Nav2item = () => {
     return ( 
         <li>
-            <a href="#home">
-                <p>Apply Online</p>
+            <a className='navitem' href="#home">
+                Apply Online
             </a>
         </li>
      );

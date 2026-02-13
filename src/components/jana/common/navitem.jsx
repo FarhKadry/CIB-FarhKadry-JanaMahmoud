@@ -1,11 +1,12 @@
 import React from 'react';
 import '../layout/NavBar.css';
+import '../common/navitem.css';
 
 const NavItem = () => {
     return ( 
         <li>
-            <a href="#home">
-                <p>About Us</p>
+            <a className='navitem' href="#home">
+                <p>About us</p>
             </a>
         </li>
      );

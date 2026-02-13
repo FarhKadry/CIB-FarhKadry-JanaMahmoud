@@ -1,0 +1,16 @@
+.navitem {
+    color: black;
+}
+
+.navitem p {
+    color: white;
+}
+
+.navitem p:hover {
+    color: #F58420;
+}
+
+.navitem:hover {
+    color: #F58420;
+    opacity: 1;
+}
