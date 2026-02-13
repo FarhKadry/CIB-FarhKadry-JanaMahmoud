@@ -47,8 +47,12 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="footerApps">
-                        <img src={store1} alt="get it on google play icon" />
-                        <img src={store2} alt="download on app store icon" />
+                        <a className='storeStyle' href="#home">
+                            <img src={store1} alt="get it on google play icon" />
+                        </a>
+                        <a className='storeStyle' href="#home">
+                            <img src={store2} alt="download on app store icon" />
+                        </a>
                     </div>
                 </div>
                 <div className="footerContBottom">
