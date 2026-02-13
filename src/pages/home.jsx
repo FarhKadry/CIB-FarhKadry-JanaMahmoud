@@ -1,8 +1,10 @@
 import React from 'react';
 import NavBar from '../components/jana/layout/NavBar';
 import './home.css';
+// FARH1
 import Herobtn from '../components/farh/hero';
 import Nav2 from './../components/farh/nav2';
+// JANA2
 import SmallTitle from '../components/jana/common/SmallTitle';
 import Heading from '../components/jana/common/Heading';
 import Sec1Card from '../components/jana/common/Sec1Card';
@@ -10,6 +12,8 @@ import Sec2Card from '../components/jana/common/Sec2Card';
 import Sec3Card from '../components/jana/common/Sec3Card';
 import Footer from '../components/jana/layout/Footer';
 import Copyrights from '../components/jana/layout/Copyrights';
+// FARH2
+import Sec5card from '../components/farh/sec5';
 
 const Home = () => {
     return ( 
@@ -69,6 +73,20 @@ const Home = () => {
                         <Herobtn />
                     </div>
                 </div>
+            </section>
+            {/* SECTION5 */}
+            <section className="secCont secStyle">
+                <div className="titleCont">
+                    <SmallTitle />
+                    <Heading />
+                </div>
+                <div className="secCards secCards2">
+                    <Sec5card />
+                    <Sec5card />
+                    <Sec5card />
+                </div>
+                <Herobtn />
+
             </section>
             <Footer />
             <Copyrights />
