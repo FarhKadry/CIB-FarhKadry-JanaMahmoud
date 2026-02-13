@@ -1,0 +1,20 @@
+.sec6Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    width: 246px;
+}
+.sec6Card img{
+    height: 54px;
+    width: auto;
+}
+.sec6Card p{
+    color: #333;
+}
+.sec6Card div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
