@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sec3Card.css';
-import sec3img from '../../assets/card2img.jpg';
+import sec3img from '../../../assets/card2img.jpg';
 
 const Sec3Card = () => {
     return ( 

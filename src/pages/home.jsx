@@ -1,15 +1,15 @@
 import React from 'react';
-import NavBar from '../components/jana/NavBar';
+import NavBar from '../components/jana/layout/NavBar';
 import './home.css';
 import Herobtn from '../components/farh/hero';
 import Nav2 from './../components/farh/nav2';
-import SmallTitle from '../components/jana/SmallTitle';
-import Heading from '../components/jana/Heading';
-import Sec1Card from '../components/jana/Sec1Card';
-import Sec2Card from '../components/jana/Sec2Card';
-import Sec3Card from '../components/jana/Sec3Card';
-import Footer from '../components/jana/Footer';
-import Copyrights from '../components/jana/Copyrights';
+import SmallTitle from '../components/jana/common/SmallTitle';
+import Heading from '../components/jana/common/Heading';
+import Sec1Card from '../components/jana/common/Sec1Card';
+import Sec2Card from '../components/jana/common/Sec2Card';
+import Sec3Card from '../components/jana/common/Sec3Card';
+import Footer from '../components/jana/layout/Footer';
+import Copyrights from '../components/jana/layout/Copyrights';
 
 const Home = () => {
     return ( 

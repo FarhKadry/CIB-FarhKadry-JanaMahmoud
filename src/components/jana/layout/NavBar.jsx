@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavBar.css';
-import logo from '../../assets/logo.svg';
-import NavItem from './navitem';
+import logo from '../../../assets/logo.svg';
+import NavItem from '../common/navitem';
 
 const NavBar = () => {
     return ( 

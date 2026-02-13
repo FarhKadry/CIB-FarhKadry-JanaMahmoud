@@ -1,17 +1,17 @@
 import React from 'react';
-import footerdeco1 from '../../assets/footerdeco2.png';
-import footerdeco2 from '../../assets/footerdeco.svg';
-import logo from '../../assets/logo.svg';
+import footerdeco1 from '../../../assets/footerdeco2.png';
+import footerdeco2 from '../../../assets/footerdeco.svg';
+import logo from '../../../assets/logo.svg';
 import './Footer.css';
-import FooterItem from './FooterItem';
-import store1 from '../../assets/store01.svg';
-import store2 from '../../assets/store02.svg';
-import facebook from '../../assets/socials01.svg';
-import instagram from '../../assets/socials02.svg';
-import linkedin from '../../assets/socials03.svg';
-import youtube from '../../assets/socials04.svg';
-import twitter from '../../assets/socials05.svg';
-import whatsapp from '../../assets/socials06.svg';
+import FooterItem from '../common/FooterItem';
+import store1 from '../../../assets/store01.svg';
+import store2 from '../../../assets/store02.svg';
+import facebook from '../../../assets/socials01.svg';
+import instagram from '../../../assets/socials02.svg';
+import linkedin from '../../../assets/socials03.svg';
+import youtube from '../../../assets/socials04.svg';
+import twitter from '../../../assets/socials05.svg';
+import whatsapp from '../../../assets/socials06.svg';
 
 
 

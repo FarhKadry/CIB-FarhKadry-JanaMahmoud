@@ -1,6 +1,6 @@
 import React from 'react';
 import './Sec1Card.css';
-import sec1icon1 from '../../assets/iconset102.svg'
+import sec1icon1 from '../../../assets/iconset102.svg'
 
 const Sec1Card = () => {
     return ( 

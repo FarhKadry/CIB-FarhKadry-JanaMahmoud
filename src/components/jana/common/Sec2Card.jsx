@@ -1,5 +1,5 @@
 import React from 'react';
-import sec2img from '../../assets/card1img.jpg';
+import sec2img from '../../../assets/card1img.jpg';
 import './Sec2Card.css';
 
 const Sec2Card = () => {
